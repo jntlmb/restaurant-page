@@ -16,10 +16,19 @@ buttons.forEach((button) => {
     content.innerHTML = "";
 
     if (button.id === "home") {
+      homeButton.classList.add("active");
+      menuButton.classList.remove("active");
+      aboutButton.classList.remove("active");
       Home();
     } else if (button.id === "menu") {
+      homeButton.classList.remove("active");
+      menuButton.classList.add("active");
+      aboutButton.classList.remove("active");
       Menu();
     } else if (button.id === "about") {
+      homeButton.classList.remove("active");
+      menuButton.classList.remove("active");
+      aboutButton.classList.add("active");
       About();
     }
   });
