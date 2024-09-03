@@ -1,4 +1,4 @@
-# restaurant-page
+# Restaurant Page
 
 This is the Repository for the Restaurant-Page Assignment of the Odin-Project.
 
