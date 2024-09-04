@@ -91,7 +91,7 @@ main {
 /*  Content styling */
 
 .content {
-    padding: 3rem;
+    padding: 1rem;
     background-color: rgba(73, 60, 60, 0.801);
     border-radius: 8px;
     /* max-width: 90%; */
