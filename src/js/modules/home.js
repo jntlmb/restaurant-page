@@ -1,5 +1,6 @@
 // assets
 import avatar from "../../assets/avatar.jpeg";
+import { paragraphCreator } from "./paragraphCreator";
 
 function createHome() {
     const content = document.createElement("div");
@@ -22,12 +23,6 @@ function createHome() {
     content.appendChild(paragraphCreator("Contact Us Now"));
 
     return content;
-}
-
-export function paragraphCreator(text) {
-    const paragraph = document.createElement("p");
-    paragraph.textContent = text;
-    return paragraph;
 }
 
 export function appendHome() {

@@ -1,4 +1,4 @@
-import { paragraphCreator } from "./home.js";
+import { paragraphCreator } from "./paragraphCreator";
 
 function createAbout() {
     const content = document.createElement("div");

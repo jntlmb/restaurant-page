@@ -1,4 +1,4 @@
-import { paragraphCreator } from "./home.js";
+import { menuItemCreator } from "./menuItemCreator";
 
 function createMenu() {
     const content = document.createElement("div");
@@ -27,16 +27,6 @@ function createMenu() {
     content.appendChild(itemContainer);
 
     return content;
-}
-
-function menuItemCreator(itemName, price) {
-    const menuItem = document.createElement("div");
-    menuItem.classList.add("menu-item");
-
-    menuItem.appendChild(paragraphCreator(itemName));
-    menuItem.appendChild(paragraphCreator(price));
-
-    return menuItem;
 }
 
 export function appendMenu() {
